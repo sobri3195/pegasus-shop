@@ -1,0 +1,31 @@
+import PromoBanner from './components/PromoBanner';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Products from './components/Products';
+import Categories from './components/Categories';
+import Features from './components/Features';
+import HowItWorks from './components/HowItWorks';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
+
+function App() {
+  return (
+    <div className="App">
+      <PromoBanner />
+      <Navbar />
+      <Hero />
+      <Products />
+      <Categories />
+      <Features />
+      <HowItWorks />
+      <Testimonials />
+      <FAQ />
+      <Footer />
+      <FloatingWhatsApp />
+    </div>
+  );
+}
+
+export default App;
