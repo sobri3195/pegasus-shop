@@ -24,6 +24,12 @@ const Testimonials = () => {
       text: 'Kursus online yang dibeli sangat lengkap dan mudah dipahami. Support dari tim juga sangat responsif!'
     },
     {
+      name: 'dr. Sobri',
+      role: 'Dokter & Educator',
+      image: '👨‍⚕️',
+      text: 'Sangat terbantu dengan produk digital edukatif dari Pegasus-Shop. Materinya berkualitas dan mudah dipahami!'
+    },
+    {
       name: 'Linda Wijaya',
       role: 'Freelance Designer',
       image: '👩‍🎨',

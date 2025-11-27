@@ -1,4 +1,3 @@
-import PromoBanner from './components/PromoBanner';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Products from './components/Products';
@@ -13,7 +12,6 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 function App() {
   return (
     <div className="App">
-      <PromoBanner />
       <Navbar />
       <Hero />
       <Products />
