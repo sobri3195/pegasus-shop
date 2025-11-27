@@ -184,6 +184,34 @@ Beberapa utility classes custom yang tersedia:
 - `.card-hover` - Efek hover untuk card
 - `.animate-on-scroll` - Animasi saat scroll
 
+## 👨‍💻 Author
+
+**Lettu Kes dr. Muhammad Sobri Maulana, S.Kom, CEH, OSCP, OSCE**
+
+- 🌐 GitHub: [github.com/sobri3195](https://github.com/sobri3195)
+- 📧 Email: [muhammadsobrimaulana31@gmail.com](mailto:muhammadsobrimaulana31@gmail.com)
+- 🌐 Website: [muhammadsobrimaulana.netlify.app](https://muhammadsobrimaulana.netlify.app)
+- 🌐 Portfolio: [muhammad-sobri-maulana-kvr6a.sevalla.page](https://muhammad-sobri-maulana-kvr6a.sevalla.page/)
+
+### 📱 Social Media & Contact
+
+- 📺 YouTube: [@muhammadsobrimaulana6013](https://www.youtube.com/@muhammadsobrimaulana6013)
+- 📱 TikTok: [@dr.sobri](https://www.tiktok.com/@dr.sobri)
+- ✈️ Telegram: [@winlin_exploit](https://t.me/winlin_exploit)
+- 💬 WhatsApp Group: [Join Community](https://chat.whatsapp.com/B8nwRZOBMo64GjTwdXV8Bl)
+
+## 💰 Support & Donation
+
+Jika proyek ini bermanfaat bagi Anda, mohon pertimbangkan untuk mendukung pengembangan lebih lanjut melalui:
+
+- ☕ [Lynk.id](https://lynk.id/muhsobrimaulana)
+- ☕ [Trakteer](https://trakteer.id/g9mkave5gauns962u07t)
+- 🎨 [Karya Karsa](https://karyakarsa.com/muhammadsobrimaulana)
+- 💝 [Nyawer](https://nyawer.co/MuhammadSobriMaulana)
+- 🛍️ [Gumroad](https://maulanasobri.gumroad.com/)
+
+Dukungan Anda sangat berarti untuk pengembangan proyek-proyek open source selanjutnya! 🙏
+
 ## 📄 License
 
 © 2024 Pegasus-Shop. All rights reserved.
@@ -195,4 +223,4 @@ Untuk pertanyaan atau bantuan, hubungi kami via WhatsApp:
 
 ---
 
-**Dibuat dengan ❤️ untuk digital entrepreneurs**
+**Dibuat dengan ❤️ untuk digital entrepreneurs oleh Muhammad Sobri Maulana**
