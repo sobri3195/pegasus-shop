@@ -6,7 +6,9 @@ export const products = [
     description: "Panduan komprehensif untuk menguasai digital marketing dari dasar hingga advanced dengan studi kasus nyata.",
     price: "Rp 150.000",
     label: "Best Seller",
-    labelColor: "bg-yellow-500"
+    labelColor: "bg-yellow-500",
+    image: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=500&h=400&fit=crop",
+    details: "E-book ini mencakup strategi SEO, social media marketing, email marketing, content marketing, dan paid advertising. Dilengkapi dengan 20+ studi kasus dari berbagai industri dan template siap pakai untuk campaign Anda."
   },
   {
     id: 2,
@@ -15,7 +17,9 @@ export const products = [
     description: "Belajar web development dari nol hingga mahir dengan 50+ video tutorial dan project portfolio.",
     price: "Rp 500.000",
     label: "Best Seller",
-    labelColor: "bg-yellow-500"
+    labelColor: "bg-yellow-500",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=400&fit=crop",
+    details: "Kursus intensif meliputi HTML, CSS, JavaScript, React, Node.js, dan database. Termasuk 10 project portfolio, akses lifetime, dan sertifikat digital setelah menyelesaikan kursus."
   },
   {
     id: 3,
@@ -24,7 +28,9 @@ export const products = [
     description: "100+ template Instagram, Facebook, dan LinkedIn siap pakai untuk meningkatkan engagement bisnis Anda.",
     price: "Rp 200.000",
     label: "Baru",
-    labelColor: "bg-green-500"
+    labelColor: "bg-green-500",
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&h=400&fit=crop",
+    details: "Template mencakup post, story, carousel, dan banner untuk berbagai keperluan bisnis. Format Canva, PSD, dan Figma. Mudah dikustomisasi dengan brand Anda. Update gratis setiap bulan."
   },
   {
     id: 4,
@@ -33,7 +39,9 @@ export const products = [
     description: "Dengarkan kisah inspiratif dan strategi sukses dari para entrepreneur ternama dalam format audio.",
     price: "Rp 120.000",
     label: "",
-    labelColor: ""
+    labelColor: "",
+    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=500&h=400&fit=crop",
+    details: "Audiobook 8 jam berisi wawancara dengan 15 entrepreneur sukses Indonesia dan internasional. Pelajari mindset, strategi, dan tips praktis yang dapat langsung diterapkan dalam bisnis Anda."
   },
   {
     id: 5,
@@ -42,7 +50,9 @@ export const products = [
     description: "500+ foto berkualitas tinggi untuk keperluan website, presentasi, dan marketing material bisnis Anda.",
     price: "Rp 350.000",
     label: "Diskon 20%",
-    labelColor: "bg-red-500"
+    labelColor: "bg-red-500",
+    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&h=400&fit=crop",
+    details: "Koleksi foto resolusi tinggi (4K-6K) dengan berbagai tema: business meeting, remote work, office, lifestyle. Lisensi komersial penuh. Format JPG dan RAW tersedia."
   },
   {
     id: 6,
@@ -51,7 +61,9 @@ export const products = [
     description: "50+ video clip HD untuk kebutuhan corporate video, iklan, dan konten media sosial.",
     price: "Rp 450.000",
     label: "Diskon 20%",
-    labelColor: "bg-red-500"
+    labelColor: "bg-red-500",
+    image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=500&h=400&fit=crop",
+    details: "Video clip 1080p-4K dengan durasi 10-30 detik. Tema corporate, city, technology, dan business. Ideal untuk iklan, presentation, dan social media content. Lisensi komersial included."
   },
   {
     id: 7,
@@ -60,7 +72,9 @@ export const products = [
     description: "100+ track musik instrumental dan efek suara untuk video YouTube, podcast, dan proyek multimedia.",
     price: "Rp 250.000",
     label: "Baru",
-    labelColor: "bg-green-500"
+    labelColor: "bg-green-500",
+    image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=500&h=400&fit=crop",
+    details: "Koleksi musik bebas royalti dengan berbagai genre: corporate, upbeat, ambient, dan cinematic. Format MP3 dan WAV. Termasuk 500+ sound effects untuk transisi dan animasi."
   },
   {
     id: 8,
@@ -69,7 +83,9 @@ export const products = [
     description: "25+ font premium untuk branding, poster, dan desain grafis dengan lisensi komersial.",
     price: "Rp 180.000",
     label: "",
-    labelColor: ""
+    labelColor: "",
+    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=500&h=400&fit=crop",
+    details: "Bundle berisi 25 font family dengan berbagai style: sans-serif, serif, script, dan display. Mendukung Latin dan extended characters. File format OTF, TTF, dan webfont. Lisensi desktop dan web."
   },
   {
     id: 9,
@@ -78,7 +94,9 @@ export const products = [
     description: "Aplikasi tracking kebiasaan dengan fitur reminder, statistik, dan integrasi calendar.",
     price: "Rp 300.000",
     label: "Best Seller",
-    labelColor: "bg-yellow-500"
+    labelColor: "bg-yellow-500",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&h=400&fit=crop",
+    details: "Aplikasi Android & iOS untuk membangun kebiasaan positif. Fitur: streak tracking, statistik detail, reminder pintar, cloud sync, dan export data. Lifetime license untuk 3 device."
   },
   {
     id: 10,
@@ -87,7 +105,9 @@ export const products = [
     description: "Software editing foto powerful dengan 100+ filter dan tools profesional.",
     price: "Rp 400.000",
     label: "",
-    labelColor: ""
+    labelColor: "",
+    image: "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?w=500&h=400&fit=crop",
+    details: "Software editing foto desktop untuk Windows dan Mac. Fitur: layer editing, masking, 100+ filter preset, batch processing, RAW support, dan color grading tools. Update gratis 1 tahun."
   },
   {
     id: 11,
@@ -96,7 +116,9 @@ export const products = [
     description: "Plugin untuk optimasi SEO website WordPress dengan analisis real-time dan rekomendasi.",
     price: "Rp 280.000",
     label: "Baru",
-    labelColor: "bg-green-500"
+    labelColor: "bg-green-500",
+    image: "https://images.unsplash.com/photo-1571677208775-05f8d2d049f2?w=500&h=400&fit=crop",
+    details: "Plugin WordPress untuk optimasi SEO on-page dan technical SEO. Fitur: keyword analysis, meta tag generator, sitemap, schema markup, dan SEO audit. Kompatibel dengan semua theme populer."
   },
   {
     id: 12,
@@ -105,7 +127,9 @@ export const products = [
     description: "Akses eksklusif ke library konten premium, webinar bulanan, dan komunitas private.",
     price: "Rp 200.000/bulan",
     label: "Best Seller",
-    labelColor: "bg-yellow-500"
+    labelColor: "bg-yellow-500",
+    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500&h=400&fit=crop",
+    details: "Membership memberikan akses ke 500+ course, e-book, dan template. Termasuk webinar live setiap minggu, group coaching, dan akses ke komunitas private dengan 1000+ member aktif."
   },
   {
     id: 13,
@@ -114,7 +138,9 @@ export const products = [
     description: "Sesi konsultasi 1 jam dengan ahli strategi bisnis untuk mengembangkan usaha Anda.",
     price: "Rp 500.000/sesi",
     label: "",
-    labelColor: ""
+    labelColor: "",
+    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&h=400&fit=crop",
+    details: "Konsultasi one-on-one via Zoom dengan business strategist berpengalaman 10+ tahun. Termasuk analisis bisnis, action plan, dan follow-up report. Cocok untuk startup dan UMKM."
   },
   {
     id: 14,
@@ -123,7 +149,9 @@ export const products = [
     description: "Kelola 3 akun media sosial dengan konten harian, engagement, dan analisis performa.",
     price: "Rp 1.500.000/bulan",
     label: "",
-    labelColor: ""
+    labelColor: "",
+    image: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=500&h=400&fit=crop",
+    details: "Paket social media management meliputi: content planning, 30 post/bulan, daily engagement, analytics report, dan ads management. Platform: Instagram, Facebook, dan LinkedIn."
   },
   {
     id: 15,
@@ -132,7 +160,9 @@ export const products = [
     description: "50+ worksheet printable untuk planning, goal setting, dan tracking produktivitas harian.",
     price: "Rp 80.000",
     label: "Diskon 20%",
-    labelColor: "bg-red-500"
+    labelColor: "bg-red-500",
+    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=400&fit=crop",
+    details: "Bundle worksheet dalam format PDF dan Canva yang bisa dikustomisasi. Termasuk daily planner, habit tracker, goal setting template, dan productivity journal. Desain minimalis dan modern."
   },
   {
     id: 16,
@@ -141,7 +171,9 @@ export const products = [
     description: "500+ prompt siap pakai untuk ChatGPT covering bisnis, konten, coding, dan marketing.",
     price: "Rp 150.000",
     label: "Baru",
-    labelColor: "bg-green-500"
+    labelColor: "bg-green-500",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=400&fit=crop",
+    details: "Koleksi 500+ prompt ChatGPT untuk berbagai keperluan: content creation, copywriting, coding, business analysis, dan learning. Format spreadsheet dengan kategori dan contoh output."
   },
   {
     id: 17,
@@ -150,7 +182,9 @@ export const products = [
     description: "Koleksi 10 karya seni digital eksklusif dengan sertifikat NFT di blockchain.",
     price: "Rp 2.000.000",
     label: "",
-    labelColor: ""
+    labelColor: "",
+    image: "https://images.unsplash.com/photo-1634193295627-1cdddf751ebf?w=500&h=400&fit=crop",
+    details: "Limited edition NFT collection dengan 10 artwork unik. Minted di Ethereum blockchain dengan smart contract verified. Termasuk high-resolution file dan commercial rights untuk holder."
   },
   {
     id: 18,
@@ -159,7 +193,9 @@ export const products = [
     description: "200+ slide template PowerPoint dan Keynote untuk presentasi bisnis yang profesional.",
     price: "Rp 220.000",
     label: "Best Seller",
-    labelColor: "bg-yellow-500"
+    labelColor: "bg-yellow-500",
+    image: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=500&h=400&fit=crop",
+    details: "Template presentasi modern dengan 200+ slide untuk berbagai keperluan: pitch deck, company profile, report, dan proposal. Format PPTX dan KEY. Mudah diedit dengan placeholder image dan text."
   },
   {
     id: 19,
@@ -168,7 +204,9 @@ export const products = [
     description: "Pelajari cara membuat konten viral untuk TikTok, Instagram Reels, dan YouTube Shorts.",
     price: "Rp 350.000",
     label: "Baru",
-    labelColor: "bg-green-500"
+    labelColor: "bg-green-500",
+    image: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=500&h=400&fit=crop",
+    details: "Kursus 6 minggu dengan 30+ video tutorial tentang content creation untuk short-form video. Termasuk tips algoritma, editing tricks, hooks strategy, dan monetization. Bonus: content calendar template."
   },
   {
     id: 20,
@@ -177,7 +215,9 @@ export const products = [
     description: "Strategi praktis mengelola keuangan pribadi dan investasi untuk mencapai financial freedom.",
     price: "Rp 130.000",
     label: "",
-    labelColor: ""
+    labelColor: "",
+    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500&h=400&fit=crop",
+    details: "E-book 150 halaman tentang financial planning, budgeting, investing, dan passive income strategies. Dilengkapi worksheet, calculator spreadsheet, dan action plan untuk mencapai financial freedom dalam 5-10 tahun."
   }
 ];
 

@@ -7,7 +7,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-secondary">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-secondary pt-20">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 text-6xl animate-float opacity-20">📚</div>
         <div className="absolute top-40 right-20 text-7xl animate-float opacity-20" style={{ animationDelay: '1s' }}>🎓</div>
@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="absolute top-1/2 left-1/4 text-5xl animate-float opacity-20" style={{ animationDelay: '0.5s' }}>🎵</div>
       </div>
 
-      <div className="container mx-auto px-4 py-32 relative z-10">
+      <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in-up">
             Pegasus-Shop
