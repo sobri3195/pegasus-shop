@@ -1,30 +1,15 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Products from './components/Products';
-import Categories from './components/Categories';
-import Owner from './components/Owner';
-import Features from './components/Features';
-import HowItWorks from './components/HowItWorks';
-import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
-import FloatingWhatsApp from './components/FloatingWhatsApp';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import ProductDetail from './pages/ProductDetail';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <Products />
-      <Categories />
-      <Owner />
-      <Features />
-      <HowItWorks />
-      <Testimonials />
-      <FAQ />
-      <Footer />
-      <FloatingWhatsApp />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
+      </Routes>
+    </Router>
   );
 }
 

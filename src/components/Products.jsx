@@ -1,11 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { products } from '../data/products';
-import ProductModal from './ProductModal';
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('Semua');
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedProduct, setSelectedProduct] = useState(null);
   const sectionRef = useRef(null);
 
   const categories = ['Semua', ...new Set(products.map(p => p.category))];
@@ -75,11 +74,11 @@ const Products = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProducts.map((product, index) => (
-            <div
+            <Link
               key={product.id}
-              className="animate-on-scroll bg-white rounded-2xl shadow-lg overflow-hidden card-hover cursor-pointer"
+              to={`/product/${product.id}`}
+              className="animate-on-scroll bg-white rounded-2xl shadow-lg overflow-hidden card-hover cursor-pointer block"
               style={{ animationDelay: `${index * 0.1}s` }}
-              onClick={() => setSelectedProduct(product)}
             >
               {product.image && (
                 <div className="relative overflow-hidden h-48 bg-gradient-to-br from-primary-100 to-secondary-100">
@@ -115,18 +114,12 @@ const Products = () => {
                     {product.price}
                   </span>
                   
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setSelectedProduct(product);
-                    }}
-                    className="bg-gradient-to-r from-primary-600 to-secondary-600 text-white px-5 py-2 rounded-full font-medium hover:shadow-lg hover:scale-105 transition-all duration-300"
-                  >
+                  <span className="bg-gradient-to-r from-primary-600 to-secondary-600 text-white px-5 py-2 rounded-full font-medium hover:shadow-lg hover:scale-105 transition-all duration-300 inline-block">
                     Lihat Detail
-                  </button>
+                  </span>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
@@ -136,13 +129,6 @@ const Products = () => {
           </div>
         )}
       </div>
-
-      {selectedProduct && (
-        <ProductModal 
-          product={selectedProduct} 
-          onClose={() => setSelectedProduct(null)} 
-        />
-      )}
     </section>
   );
 };
