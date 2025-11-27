@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import Categories from './components/Categories';
+import Owner from './components/Owner';
 import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Products />
       <Categories />
+      <Owner />
       <Features />
       <HowItWorks />
       <Testimonials />

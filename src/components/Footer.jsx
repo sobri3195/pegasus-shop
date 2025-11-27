@@ -36,6 +36,9 @@ const Footer = () => {
               <p className="text-gray-400 mt-2 text-center md:text-left">
                 Toko Produk Digital Terpercaya
               </p>
+              <p className="text-gray-500 text-sm mt-1 text-center md:text-left">
+                by dr. Muhammad Sobri Maulana
+              </p>
             </div>
 
             <div className="text-center md:text-right">

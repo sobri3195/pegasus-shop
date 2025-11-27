@@ -7,7 +7,7 @@ export const products = [
     price: "Rp 150.000",
     label: "Best Seller",
     labelColor: "bg-yellow-500",
-    image: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=500&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=400&fit=crop",
     details: "E-book ini mencakup strategi SEO, social media marketing, email marketing, content marketing, dan paid advertising. Dilengkapi dengan 20+ studi kasus dari berbagai industri dan template siap pakai untuk campaign Anda."
   },
   {
@@ -117,7 +117,7 @@ export const products = [
     price: "Rp 280.000",
     label: "Baru",
     labelColor: "bg-green-500",
-    image: "https://images.unsplash.com/photo-1571677208775-05f8d2d049f2?w=500&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=500&h=400&fit=crop",
     details: "Plugin WordPress untuk optimasi SEO on-page dan technical SEO. Fitur: keyword analysis, meta tag generator, sitemap, schema markup, dan SEO audit. Kompatibel dengan semua theme populer."
   },
   {

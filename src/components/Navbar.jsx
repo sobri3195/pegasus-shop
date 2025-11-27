@@ -17,6 +17,7 @@ const Navbar = () => {
     { name: 'Home', href: '#home' },
     { name: 'Produk', href: '#produk' },
     { name: 'Kategori', href: '#kategori' },
+    { name: 'Pemilik', href: '#pemilik' },
     { name: 'Keunggulan', href: '#keunggulan' },
     { name: 'Cara Kerja', href: '#cara-kerja' },
     { name: 'Testimoni', href: '#testimoni' },
